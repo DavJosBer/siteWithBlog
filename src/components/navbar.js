@@ -20,7 +20,7 @@ export const NavBar = (props) => {
                             <span className="nav-link px-3 h6"><NavLink exact activeClassName="text-info" to="/">{props.nav1}</NavLink><span class="sr-only">(current)</span></span>
                         </li>
                         <li className="nav-item">
-                            <span className="nav-link px-3 h6"><NavLink exact activeClassName="text-info" to="/home">{props.nav2}</NavLink></span>
+                            <span className="nav-link px-3 h6"><NavLink exact activeClassName="text-info" to="/about_us">{props.nav2}</NavLink></span>
                         </li>
                         <li className="nav-item">
                             <span className="nav-link px-3 h6"><NavLink exact activeClassName="text-info" to="/blog">{props.nav3}</NavLink></span>

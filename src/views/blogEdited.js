@@ -1,6 +1,6 @@
 import React from "react";
 import Proptypes from "prop-types"
-import {Link, useParams} from "react-router-dom"
+import {useParams} from "react-router-dom"
 
 export const BlogEdit = (props) => {
 	let params = useParams()

@@ -1,10 +1,11 @@
 import React, {useState, useEffect, useContext} from "react";
-import {BrowserRouter, Route, Switch,Link, useParams} from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {NavBar} from "./components/navbar"
 import {Footer} from "./components/footer"
 import {Blog} from "./views/blogDocAtHome"
 import {Home} from "./views/home"
 import {BlogEdit} from "./views/blogEdited"
+import {About} from "./views/aboutUs"
 import "./App.css"
 
 export function App() {
@@ -40,6 +41,9 @@ export function App() {
           <Switch>
             <Route exact path="/">
               <Home/>
+            </Route>
+            <Route exact path="/about_us">
+              <About/>
             </Route>
             <Route exact path="/blog">
               <div className="container">

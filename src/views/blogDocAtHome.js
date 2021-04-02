@@ -1,6 +1,6 @@
 import React from "react";
 import Proptypes from "prop-types"
-import {Link, useParams} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 export const Blog = (props) => {
     return(
@@ -16,7 +16,7 @@ export const Blog = (props) => {
 						incidunt recusandae expedita nesciunt velit?
 					</p>
                     <Link to={`/post/${props.id}`}>
-                            <span className="btn btn-primary">Leer Más...</span>
+                            <span className="btn btn-info">Leer Más...</span>
                     </Link>
       			</div>
     			</div>
